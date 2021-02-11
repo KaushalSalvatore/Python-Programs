@@ -1,0 +1,7 @@
+a = input('first number')
+b = input('secound number')
+c = int(a) + int(b)
+a = int(c)-int(a)
+b = int(c) -int(b)
+print(a)
+print(b)
