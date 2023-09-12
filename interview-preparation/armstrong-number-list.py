@@ -21,11 +21,9 @@ def armstrong_number(arr):
     for a in arr:
         temp = a
         while temp > 0:
-            print(temp,"---",sum)
             digit = temp%10
             sum += digit ** count
             temp //=10
-        # print(sum)
         if(a == sum):
             armstrong_list.append(sum)
             # digit=0
