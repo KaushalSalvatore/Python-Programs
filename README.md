@@ -1,4 +1,5 @@
 ### Python Programs list with solution for interview preparation
+
 #### Day 1
 - 1.. Write a Python Code for list Numbers and add sum of Odd or Even number also make saparet list for even odd number.
 
@@ -35,7 +36,7 @@
 
 #### Day 3
 
-- 16.. Python program to remove given character from String.
+- 16.. Python program to remove vowel character from String.
 
 - 17.. Write a program in Python for, In array 1-100 numbers are stored, one number is missing how do you find it.
 
