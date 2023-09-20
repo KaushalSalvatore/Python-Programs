@@ -46,3 +46,27 @@
 add up to the target sum.
 
 - 20.. write a program to find the secound maximum of number in an list if number is repeating,
+
+#### day 4
+
+- 21.. Write a program in Python to find given number is perfect or not?
+
+- 22.. Python Program to count occurrence of a given characters in string.
+
+- 23.. Python Program to check if two Strings are Anagram.
+
+- 24.. Python program to print the highest frequency character in a String.
+
+- 25.. Python Program to sort characters of string in ascending order.
+
+#### day 5 
+
+- 26.. Write a program in Python for, In a array 1-100 multiple numbers are duplicates, how do you find it.
+
+- 27.. Python Program to add two number using recursion.
+
+- 28.. Python program to perform left rotation of array elements by two positions.
+
+- 29.. Python Program to find highest frequency element in array.
+
+
