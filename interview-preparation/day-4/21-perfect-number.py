@@ -20,7 +20,7 @@ def perfect_number_list(arr_1):
         for j in range(1,i):
             if(i%j == 0):
                 sum += j
-                print(sum,i)
+              
                 if(sum == i):
                     arr.append(sum)     
                 else:

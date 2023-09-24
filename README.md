@@ -65,8 +65,47 @@ add up to the target sum.
 
 - 27.. Python Program to add two number using recursion.
 
-- 28.. Python program to perform left rotation of array elements by two positions.
+- 28.. Python Program to find highest frequency element in array.
 
-- 29.. Python Program to find highest frequency element in array.
+- 29.. create Decorator functions. 
+
+- 30.. find mean , medium , mode in array list value.
+
+#### day 5 
+- 31.. start pattern 1
+* 
+**
+***
+****
+*****
+
+- 32.. start pattern 2
+
+       *
+    *     *
+*      *     *
+
+- 33.. start pattern 3
+
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+
+- 34.. start pattern 4
+
+1
+2 3
+4 5 6
+7 8 9 10
+
+- 35.. start pattern 5
+
+A
+B C
+D F G
+H I J K
 
 
+#### SQL ORM(Object Relational Mapping) Query
