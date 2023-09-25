@@ -71,7 +71,7 @@ add up to the target sum.
 
 - 30.. find mean , medium , mode in array list value.
 
-#### day 5 
+#### day 6
 - 31.. start pattern 1
 * 
 **
@@ -106,6 +106,9 @@ A
 B C
 D F G
 H I J K
+
+#### day 7
+
 
 
 #### SQL ORM(Object Relational Mapping) Query
