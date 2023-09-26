@@ -44,25 +44,28 @@ for i in range(len(students)):
   
 session.commit()
   
-from sqlalchemy.orm import joinedload
+# from sqlalchemy.orm import joinedload
   
-# Query all students and their fees using joinedload
-students = session.query(Student).options(joinedload(Student.fees)).all()
+# # Query all students and their fees using joinedload
+# students = session.query(Student).options(joinedload(Student.fees)).all()
   
-for student in students:
-    print(f'{student.name} ({student.age}):')
-    for fee in student.fees:
-        print(f'- {fee.amount}')
+# for student in students:
+#     print(f'{student.name} ({student.age}):')
+#     for fee in student.fees:
+#         print(f'- {fee.amount}')
   
-# Query students and fees using a join
-from sqlalchemy.orm import aliased
+# # Query students and fees using a join
+# from sqlalchemy.orm import aliased
   
-student = aliased(Student)
-fee = aliased(Fee)
-stmt = session.query(student, fee)\
-              .join(fee, student.id == fee.student_id)\
-              .order_by(student.name)\
-              .all()
+# student = aliased(Student)
+# fee = aliased(Fee)
+# stmt = session.query(student, fee)\
+#               .join(fee, student.id == fee.student_id)\
+#               .order_by(student.name)\
+#               .all()
   
-for s, f in stmt:
-    print(f'{s.name} ({s.age}): {f.amount}')
+# for s, f in stmt:
+#     print(f'{s.name} ({s.age}): {f.amount}')
+
+
+    

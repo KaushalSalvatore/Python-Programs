@@ -109,6 +109,24 @@ H I J K
 
 #### day 7
 
+- 36.. Write a Python program to remove a specified item using the index of an array.
+
+- 37.. How to rotate an array left and right by a given number K.
+
+- 38.. How do you perform a binary search in a given array?
+
+- 39.. How is an integer array sorted in place using the quicksort algorithm
+
+- 40.. How do you search a target value in a rotated array?
+
+#### day 8
+
+- 41.. Move all the negative elements to one side of the array
+
+- 42.. Find the Union and Intersection of the two sorted arrays
+
 
 
 #### SQL ORM(Object Relational Mapping) Query
+
+
