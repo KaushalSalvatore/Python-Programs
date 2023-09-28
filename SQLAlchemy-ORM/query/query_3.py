@@ -1,15 +1,21 @@
-# Add Coloumns   add_columns()
-from .query_2 import Student,Fee,stmt,session
+import sqlite3
 
+sqliteConnection = sqlite3.connect('person.db')
+cursor = sqliteConnection.cursor()
+print('DB Init')
+# Write a query and execute it with cursor
+query = 'SELECT * from people'
+cursori = cursor.execute(query)
+ 
+# Fetch and output result
+result = cursori.fetchall()
+print('SQLite Version is {}'.format(result))
 
-students = session.query(Student).all
-for student in students:
-    print(student.name)
+for row in cursori:
+    print(row)
 
-
-
-# from sqlalchemy.orm import joinedload
-# students = session.query(Student).options(joinedload(Student.fees)).all()
+# Close the cursor
+cursor.close()
 
 
 

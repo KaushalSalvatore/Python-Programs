@@ -74,14 +74,4 @@ module is a single file containing python code, whereas a package is a collectio
 #### Q.11.	When to use the assert keyword in python? What does it do
 ```bash
 The assert keyword is used when debugging code.The assert keyword lets you test if a condition in your code returns True, if not, the program will raise an AssertionError.You can write a message to be written if the code returns False, check the example below.
-
-```
-
-#### Q.1
-```bash
-
-```
-
-```bash
-
 ```
