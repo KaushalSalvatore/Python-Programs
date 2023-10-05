@@ -75,3 +75,43 @@ module is a single file containing python code, whereas a package is a collectio
 ```bash
 The assert keyword is used when debugging code.The assert keyword lets you test if a condition in your code returns True, if not, the program will raise an AssertionError.You can write a message to be written if the code returns False, check the example below.
 ```
+
+#### Q-12 what is difference between multi proccessing and multi thrading 
+```bash 
+```
+
+#### Q-13 what ia GIL in python
+```bash 
+```
+#### Q-13 whats is difference between call by reference and call by value
+```bash 
+```
+#### Q-14 what is dunder method what is differance between functions and methods
+```bash 
+```
+#### Q-15 what is differance between iterator and genratore 
+```bash 
+```
+#### Q-16 what is decorators ? 
+```bash 
+```
+
+#### Q-17 whats is task scheduler in python ?
+```bash 
+```
+
+#### Q-18
+```bash 
+```
+
+#### Q-19 
+```bash 
+```
+
+#### Q-20
+```bash 
+```
+
+#### Q-1 
+```bash 
+```

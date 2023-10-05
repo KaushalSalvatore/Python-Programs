@@ -125,6 +125,20 @@ H I J K
 
 - 42.. Find the Union and Intersection of the two sorted arrays
 
+- 43.. reverse the characters of the strings ?  
+
+- 44.. print Required output
+        String = abcdefg
+        arr = [1,1,2,3,4,5,6]
+        output = 23a1b1c2d3e4f5g6
+
+- 45.. fibinnaci series using reursion
+
+
+#### day 9
+
+- 46.. Slice functionality.
+
 
 
 #### SQL ORM(Object Relational Mapping) Query

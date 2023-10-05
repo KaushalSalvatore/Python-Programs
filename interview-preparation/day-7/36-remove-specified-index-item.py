@@ -6,4 +6,4 @@ if __name__=='__main__':
         arr.pop(index)
         print(arr)
     else:
-        print('enter value grater then arra size')
+        print('enter value grater then enter size')
