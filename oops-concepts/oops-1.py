@@ -1,4 +1,5 @@
 ## __ini__ 
+# self
 
 class Computer:
 

@@ -33,11 +33,19 @@ lap2 = Studnet.Laptop()
 print(lap2.show()) # without call self.lap = self.Laptop()
 
 
+'''
+We can make our code even more object-oriented by using an inner class. 
+A single object of the class can hold multiple sub-objects. We can use multiple 
+sub-objects to give a good structure to our program.
 
-# you can create objectr of inner class inside the outer class  
-# lap1 = s1.lap
-# print(lap1.brand) # self.lap = self.Laptop()
-# or 
-#you can create object of inner class outside of outer class provided you use outer class name to call it
-# lap2 = Studnet.Laptop() 
-# print(lap2.brand) # without call self.lap = self.Laptop()
+you can create object  of inner class inside the outer class  
+lap1 = s1.lap
+print(lap1.brand) # self.lap = self.Laptop()
+or 
+you can create object of inner class outside of outer class 
+provided you use outer class name to call it
+lap2 = Studnet.Laptop() 
+print(lap2.brand) # without call self.lap = self.Laptop()
+
+'''
+

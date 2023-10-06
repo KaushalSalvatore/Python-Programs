@@ -31,8 +31,13 @@ for i in value:
 
 
 
+'''
+An iterator in Python is an object that is used to iterate over iterable objects like lists, 
+tuples, dicts, and sets. The Python iterators object is initialized using the iter() method. 
+It uses the next() method for iteration.
+__iter__(): The iter() method is called for the initialization of an iterator. This returns an iterator object
+__next__(): The next method returns the next value for the iterable. 
+'''
 
-#__iter__(): The iter() method is called for the initialization of an iterator. This returns an iterator object
-#__next__(): The next method returns the next value for the iterable. 
 
 

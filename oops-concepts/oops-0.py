@@ -4,9 +4,8 @@ class Computer:
 
 com = Computer()
 
-Computer.config(com)
 
-com.config()
+com.config() #Computer.config(com)
 
 #Computer.config(com) or com.config() both are same in working 
 # Computer is class

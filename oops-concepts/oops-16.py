@@ -7,4 +7,4 @@ def person(name , **kwargs):
     for i,j in kwargs.items():
         print(i,j)
 
-person('Kaushal' , age=26,city='pune',mob=564838482)
+person('Kaushal', age=26,city='pune',mob=564838482)

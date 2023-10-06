@@ -1,10 +1,5 @@
 #Abstract Class 
-# dicrectly python dont support Abstract method thats why its supprt 
-# ABC (Abstract Base Class)
-# abstract class have atlest on abstract method 
-
-#Abstraction is used to hide the internal functionality of the function from the users. 
-
+ 
 from abc import ABC, abstractmethod   
 class Car(ABC):  
     @abstractmethod    
@@ -37,3 +32,11 @@ s = Suzuki()
 s.mileage()   
 d = Duster()   
 d.mileage()  
+
+
+'''
+dicrectly python dont support Abstract method thats why its supprt 
+ABC (Abstract Base Class)
+abstract class have atlest on abstract method 
+Abstraction is used to hide the internal functionality of the function from the users.
+'''

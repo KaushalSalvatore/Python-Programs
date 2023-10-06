@@ -1,10 +1,4 @@
-# call by value and call by reference in python
-# in python there is there no concept because python treat everything as a object
-
-# call by value > when ever you call a function with calling a variable value not the address 
-# call by reference >  when ever you call a function with calling a variable  by address 
-
-
+# call by value in python
 
 def update(x):
     x = 8 
@@ -15,6 +9,7 @@ update(a)
 print("a", a)
 
 # in this it will not effect the value of a value because we are passing a value not refrance(call by value)
+
 # call by reference
  
  
@@ -27,3 +22,9 @@ mylist = [10,20,30,40]
  
 add_more(mylist)
 print("Outside Function:", mylist)
+
+'''
+in python there is there no concept because python treat everything as a object
+call by value > when ever you call a function with calling a variable value not the address 
+call by reference >  when ever you call a function with calling a variable  by address 
+'''
