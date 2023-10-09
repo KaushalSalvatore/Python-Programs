@@ -7,7 +7,7 @@ def swap_number(a,b):
     a = a+b
     b = a-b
     a = a-b
-    print("befor swap ---- a=",a)
+    print("after swap ---- a=",a)
     print("b=",b)
 
 

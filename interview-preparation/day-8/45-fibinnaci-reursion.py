@@ -1,4 +1,14 @@
-file = open("filenae.txt",'r')
-for i in range(21):
-    print(file.read(4))
-file.close
+# reurion : that means function calling it self.
+
+def recursion(x):
+    if x == 1:
+        return 1
+    else:
+        print(x)
+        return (x + recursion(x-1))
+
+print(recursion(5))
+
+
+
+
