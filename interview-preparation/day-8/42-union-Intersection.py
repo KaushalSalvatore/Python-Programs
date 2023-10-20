@@ -1,23 +1,21 @@
 def union(arr1,arr2):
-    print('-----------union----------')
-
+    print('-----------Intersection----------')
     for i in range(0,len(arr1)):
         for j in range(0,len(arr2)):
             if(arr1[i] == arr2[j]):
                 print(arr1[i],end=" ")
                 print()
+    
+    inter_list = [value for value in arr1 if value in arr2]
+    print(inter_list)
+
 
 def intersection(arr1,arr2):
-    print('-----------Intersection----------')
+    print('-----------union----------')
 
-    for i in arr1:
-        for j in arr2:
-            # print(i,"----------",j)
-            if(i != j):
-                arr1.append(j)
-                break
+    final_list = list(set(arr1) | set(arr2))
         
-    print(arr1)
+    print(final_list)
         
 
 
