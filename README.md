@@ -139,8 +139,14 @@ H I J K
 
 - 46.. Slice functionality.
 
+#### day 10 
 
+- 50.. find array is monotonic or not ? (array should be equal to decreasing and increasing order)
 
-#### SQL ORM(Object Relational Mapping) Query
+- 51.. Python Program for Find remainder of array multiplication divided by n ?
 
+- 52.. Python Program to Split the array and add the first part to the end ? 
 
+- 53.. Python Program to Find Largest Element in an Array ?
+
+- 54.. Python program to interchange first and last elements in a list ? 

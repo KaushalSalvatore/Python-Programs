@@ -39,6 +39,6 @@ else:
 
 
 # id(c1) this will show you the heap memory address.
-#  Cumputer() this is constructor that allocate the memroy 
+#  Person() this is constructor that allocate the memroy 
 #  self > its referring  to the object. we can access the attributes and methods of the class 
 # compare(self,other) (who is calling , whom to comapre)

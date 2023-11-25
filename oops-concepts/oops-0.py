@@ -11,3 +11,6 @@ com.config() #Computer.config(com)
 # Computer is class
 # com is a object
 # Computer() is a constructor 
+
+
+

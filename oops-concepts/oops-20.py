@@ -1,6 +1,6 @@
 # Deep copy shallow copy
 # shallow copy creates a copy of the object but reference each elelment of the object
-# deep copy creates a copay of the object and element of the object
+# deep copy creates a copy of the object and element of the object
 
 import copy
 
